@@ -41,7 +41,7 @@ if selected == 'Klasifikasi':
         except ValueError as e:
               st.markdown("<h3 style='text-align : center' font-color: red> !!⚠️ An error occurred while reading the file ⚠️!! </h3>", unsafe_allow_html=True)
     # Lokasi model
-    model_path = 'BestModel_CLF_RFC_Transformer.pkl'
+    model_path = r'BestModel_CLF_RFC_Transformer.pkl'
 
     if os.path.exists(model_path):
         with open(model_path, 'rb') as f:
@@ -122,7 +122,7 @@ if selected == 'Klasifikasi':
 if selected == 'Regresi':
     st.title('📈 Prediksi Harga Properti')
 
-    model_path = 'BestModel_REG_Ridge_Transformer.pkl'
+    model_path = r'BestModel_REG_Ridge_Transformer.pkl'
 
     st.write('Untuk Inputan File dataset (csv) bisa menggunakan st.file_uploader')
     file = st.file_uploader('Masukkan File Dataset Anda', type=["csv", "txt"])
