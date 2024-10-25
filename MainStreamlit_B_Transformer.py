@@ -243,3 +243,8 @@ if selected == 'Catatan':
     st.write('''1. Bagian sidebar akan menampilkan menu dari fungsi streamlit yang kita buat".''')
     st.write('2. Menu yang dibuat ada 2 yaitu Klasifikasi dan Regresi.')
     st.write('''3. Klasifikasi akan menghasilkan output kategori properti sedangkan regresi akan menghasilkan output harga properti.''')
+    st.write('Frans Daniel Rajagukguk - 220711826')
+    st.write('Angello Khara Sitanggang - 220711833')
+    st.write('Davin Gilbert Natanael - 220711841')
+    st.write('Emanuel Enrico Anindya Wibawa - 220711890')
+    st.write('Archipera Rari Dyaksa - 220711891')
